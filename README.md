@@ -1,33 +1,63 @@
-# ACGN 浣滃搧璁板綍绠＄悊绯荤粺
+# ACGN作品记录管理系统
 
-涓€涓熀浜?`Java 8 + Servlet + JSP/JDBC + MySQL + jQuery + ECharts` 鐨勮交閲忕骇 ACGN 浣滃搧璁板綍绠＄悊绯荤粺锛屾敮鎸佹敞鍐岀櫥褰曘€佷綔鍝佸鍒犳敼鏌ャ€佺粺璁″浘琛ㄣ€乀OP 灞曠ず銆丆SV 瀵煎叆瀵煎嚭鍜屽鏉′欢鎼滅储銆?
-## 椤圭洰鍒嗘瀽
+这是一个基于 Java Servlet、MySQL、jQuery 和 ECharts 的轻量级 ACGN 作品记录管理系统。
 
-杩欎釜椤圭洰鐨勫畾浣嶅緢鏄庣‘锛氬洿缁曚釜浜烘垨澶氱敤鎴风殑 ACGN 浣滃搧璁板綍鍋氳交閲忕鐞嗭紝鐣岄潰鍜屼氦浜掑凡缁忓叿澶囧畬鏁撮洀褰紝璇剧▼鏂囨。涔熸瘮杈冮綈鍏ㄣ€傜粨鍚堟簮鐮佸拰鏂囨。锛屽綋鍓嶉」鐩殑浼樼偣鍜屼富瑕侀棶棰樺涓嬶細
+项目主要用于记录和管理动画、漫画、游戏、小说四类作品，支持用户注册登录、作品增删改查、统计图表、TOP 展示、CSV 导入导出，以及多条件搜索。
 
-- 浼樼偣锛氬姛鑳介摼璺畬鏁达紝鍓嶅悗绔垎宸ユ竻鏅帮紝椤甸潰浜や簰杈冧赴瀵岋紝宸茬粡鍏峰鍙睍绀哄拰鍙户缁凯浠ｇ殑鍩虹銆?- 浼樼偣锛歚Servlet + DAO + 鍓嶇椤甸潰` 缁撴瀯绠€鍗曠洿鎺ワ紝閫傚悎浣滀负璇剧▼椤圭洰鍜屼釜浜轰綔鍝侀泦灞曠ず銆?- 闂锛氭暟鎹簱杩炴帴淇℃伅鍘熷厛鐩存帴鍐欏湪浠撳簱閰嶇疆閲岋紝涓嶉€傚悎鍏紑鍒?GitHub銆?- 闂锛氬瘑鐮佸師鍏堜互鏄庢枃鏂瑰紡瀛樺偍锛屽拰闇€姹傛枃妗ｄ腑鈥滃瘑鐮佸姞瀵嗗瓨鍌ㄢ€濈殑鐩爣涓嶄竴鑷淬€?- 闂锛氬墠绔師鍏堢‖缂栫爜閮ㄧ讲璺緞 `/ACGN_FF_war`锛屾崲涓婁笅鏂囪矾寰勫悗瀹规槗鏃犳硶璁块棶銆?- 闂锛氫粨搴撲腑娣峰叆浜?`target/` 绛夋瀯寤轰骇鐗╋紝涓嶉€傚悎鐩存帴浣滀负婧愮爜浠撳簱鎻愪氦銆?
-## 鏈浼樺寲
+## 项目特点
 
-鏈疆宸茶ˉ涓婄殑鍐呭锛?
-- 瀵嗙爜瀛樺偍鏀逛负 `SHA-256` 鍝堝笇锛屽苟鍏煎宸叉湁鏄庢枃鏁版嵁鐧诲綍銆?- 鐢ㄦ埛鍚嶅鍔犳牸寮忔牎楠岋紝閬垮厤鍔ㄦ€佸缓琛ㄦ椂鎶婇潪娉曞瓧绗︽嫾杩涜〃鍚嶃€?- 鏁版嵁搴撻厤缃敮鎸侀€氳繃 `System Property` 鎴栫幆澧冨彉閲忚鐩栵紝渚夸簬鏈湴鍜岄儴缃茬幆澧冨垎绂汇€?- 鍓嶇椤甸潰涓庢帴鍙ｈ皟鐢ㄥ幓鎺夊浐瀹氫笂涓嬫枃璺緞锛屾彁鍗囬儴缃插吋瀹规€с€?- 閲嶅啓鍒濆鍖?SQL锛屼繚鐣欐渶灏忓彲杩愯琛ㄧ粨鏋勫拰灏戦噺绀轰緥鏁版嵁銆?- 澧炲姞 `.gitignore`锛岄伩鍏嶆妸鏋勫缓浜х墿鍜?IDE 鏂囦欢鎻愪氦鍒?GitHub銆?
-## 鎶€鏈爤
+- 支持用户注册、登录、退出登录、密码重置
+- 支持不同用户的数据隔离
+- 支持作品新增、编辑、删除、浏览与搜索
+- 支持统计分析与图表展示
+- 支持按评分展示 TOP 作品
+- 支持 CSV 导入导出
+- 支持基于 Session 的访问控制
 
-- 鍚庣锛欽ava 8銆丼ervlet 4銆丣DBC銆丣ackson銆丱penCSV
-- 鍓嶇锛欻TML銆丆SS銆丣avaScript銆乯Query銆丅ootstrap銆丒Charts
-- 鏁版嵁搴擄細MySQL 8
-- 鏋勫缓锛歁aven WAR 椤圭洰
+## 技术栈
 
-## 鐩綍璇存槑
+- 后端：Java 8、Servlet 4、JDBC、Jackson、OpenCSV
+- 前端：HTML、CSS、JavaScript、jQuery、Bootstrap、ECharts
+- 数据库：MySQL 8
+- 构建工具：Maven
+
+## 本次整理与优化
+
+在发布到 GitHub 前，项目已经完成了一轮工程化整理和基础优化：
+
+- 初始化 Git 仓库并补充 `.gitignore`
+- 补充 README 文档
+- 将数据库配置改为可外置覆盖
+- 增加密码哈希支持，并兼容旧的明文密码数据
+- 增加用户名格式校验，降低动态建表风险
+- 移除前端页面和脚本中写死的部署上下文路径
+- 增加统一的 Session 登录校验过滤器
+- 更新 Maven 插件版本，使项目能在当前环境正确打包
+- 精简并整理初始化 SQL 脚本
+
+## 目录结构
 
 ```text
-src/main/java         Java 婧愮爜
-src/main/resources    鏁版嵁搴撻厤缃笌鍒濆鍖?SQL
-src/main/webapp       椤甸潰銆佽剼鏈€佹牱寮忓拰闈欐€佽祫婧?pom.xml               Maven 閰嶇疆
+src/main/java         Java 源码
+src/main/resources    数据库配置与初始化 SQL
+src/main/webapp       页面、脚本、样式和静态资源
+src/test/java         测试代码
+pom.xml               Maven 配置
 ```
 
-## 杩愯鏂瑰紡
+## 运行方式
 
-1. 鍒涘缓 MySQL 鏁版嵁搴撳苟鎵ц [`src/main/resources/init_work_admin.sql`](/E:/CS/Git/ACGN-FF/src/main/resources/init_work_admin.sql)銆?2. 澶嶅埗 [`src/main/resources/db.properties.example`](/E:/CS/Git/ACGN-FF/src/main/resources/db.properties.example) 鐨勫唴瀹瑰埌鏈湴 `db.properties`锛屽～鍐欒嚜宸辩殑鏁版嵁搴撹处鍙峰瘑鐮併€?3. 鎴栬€呯洿鎺ラ€氳繃浠ヤ笅鏂瑰紡瑕嗙洊鏁版嵁搴撻厤缃細
+### 1. 准备数据库
+
+创建名为 `acgn` 的 MySQL 数据库，然后执行初始化脚本：
+
+[`src/main/resources/init_work_admin.sql`](/E:/CS/Git/ACGN-FF/src/main/resources/init_work_admin.sql)
+
+### 2. 配置数据库连接
+
+你可以直接修改 [`src/main/resources/db.properties`](/E:/CS/Git/ACGN-FF/src/main/resources/db.properties)，也可以参考 [`src/main/resources/db.properties.example`](/E:/CS/Git/ACGN-FF/src/main/resources/db.properties.example)。
+
+也可以通过环境变量覆盖数据库配置：
 
 ```powershell
 $env:ACGN_DB_URL="jdbc:mysql://localhost:3306/acgn?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai"
@@ -35,22 +65,27 @@ $env:ACGN_DB_USERNAME="root"
 $env:ACGN_DB_PASSWORD="your_password"
 ```
 
-4. 鏋勫缓椤圭洰锛?
+### 3. 构建项目
+
 ```powershell
 mvn clean package
 ```
 
-5. 灏嗙敓鎴愮殑 WAR 鍖呴儴缃插埌 Tomcat銆?6. 鎵撳紑鐧诲綍椤碉紝鍏堟敞鍐屼竴涓柊鐢ㄦ埛鍐嶄娇鐢ㄧ郴缁熴€?
-## 鏂囨。鍙傝€?
-浠撳簱鏍圭洰褰曚腑鐨勮繖浜涙枃妗ｅ彲浠ヨ緟鍔╃悊瑙ｈ璁¤儗鏅細
+如果你的本地 Maven 路径是 `E:\CS\apache-maven-3.8.8`，也可以直接使用该版本构建。
 
-- `闇€姹傚垎鏋愪功.docx`
-- `鏁版嵁搴撹璁?docx`
-- `椤圭洰椤甸潰鎴浘.docx`
-- `ACGN浣滃搧璁板綍绠＄悊绯荤粺鍚存案鍩庡皬缁勮鍒掍功.docx`
-- `ACGN浣滃搧璁板綍绠＄悊绯荤粺鍚存案鍩庡紑鍙戝疄璺垫€荤粨.docx`
+### 4. 部署运行
 
-鍏朵腑闇€姹傛枃妗ｅ己璋冧簡澶氱敤鎴锋暟鎹殧绂汇€佸鍚堢瓫閫夈€佺粺璁″睍绀哄拰杞婚噺鍖栦綋楠岋紝杩欎簺鐩爣涓庡綋鍓嶄唬鐮佸疄鐜板熀鏈竴鑷淬€?
-## 鍚庣画鍙户缁紭鍖?
-- 鎶娾€滄瘡涓敤鎴蜂竴寮犱綔鍝佽〃鈥濋噸鏋勪负鈥滃崟琛?+ user_id鈥濇ā寮忥紝闄嶄綆缁存姢鎴愭湰銆?- 涓烘悳绱㈠拰缁熻鎺ュ彛琛ュ崟鍏冩祴璇曟垨闆嗘垚娴嬭瘯銆?- 澧炲姞缁熶竴杩囨护鍣紝澶勭悊鐧诲綍鏍￠獙銆佸瓧绗︾紪鐮佸拰寮傚父鍝嶅簲銆?- 鎶婂墠绔腑閲嶅鐨勮姹傝矾寰勩€侀€氱煡缁勪欢鍜屽脊绐楅€昏緫杩涗竴姝ユ娊鎴愬叕鍏辨ā鍧椼€?
+将生成的 WAR 包部署到 Tomcat 后，打开登录页面即可使用。
 
+## 说明
+
+- 课程文档中有些目标属于完整规划，如果需要较大改动，本次没有强行补进代码。
+- 这次优先补齐了简单且高价值的部分，复杂改动保留到后续优化。
+- 根目录中的部分课程材料文档（`doc/docx/pptx`）默认未推送到仓库。
+
+## 后续可优化方向
+
+- 将“每用户一张表”重构为“单表 + user_id”模式
+- 为 DAO 层和 Servlet 层补充更完整的测试
+- 完善统一异常处理与接口响应规范
+- 继续清理旧源码中历史遗留的乱码注释和文本编码问题
